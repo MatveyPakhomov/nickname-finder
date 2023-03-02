@@ -31,29 +31,6 @@ function App() {
     );
   };
 
-  // function highlightRussianLetters(str) {
-  //   const russianLettersRegex = /[а-яё]/gi;
-  //   const russianLetters = str.match(russianLettersRegex);
-  //
-  //   if (!russianLetters) {
-  //     // если нет русских букв, то возвращаем исходную строку
-  //     return str;
-  //   }
-  //
-  //   russianLetters.forEach((letter) => {
-  //     str = str.replace(letter, `<span style="color: red">${letter}</span>`);
-  //   });
-  //
-  //   return str;
-  // }
-  //
-  // function aboba( ) {
-  //   let element = document.querySelector('#nickname');
-  //   element.innerHTML = element.innerHTML.replace('o', '<span style="color: red;">o</span>');
-  // }
-  //
-  // // highlightRussianLetters();
-
   return (
     <div className="App">
       <header className="App-header">
